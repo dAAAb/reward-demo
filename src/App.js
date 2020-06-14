@@ -24,7 +24,7 @@ function App() {
   const sendReward = () => {
     console.log('send reward');
     fetch(
-      '/api/send',
+      'http://165.22.101.212:3001/api/send',
       {
         method: 'POST',
         headers: {
